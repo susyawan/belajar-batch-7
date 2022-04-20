@@ -184,6 +184,15 @@
         }
 
         /* Menu */
+        @keyframes visible {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 1;
+            }
+        }
+
         .font-active {
             pointer-events: none;
             font-weight: bold;
@@ -201,10 +210,12 @@
 
         #fonts:checked~#fonts {
             display: block;
+            animation: visible 1s;
         }
 
         #fonts:checked~#carouselFonts {
             display: block;
+            animation: visible 1s;
         }
 
         #fonts:checked~#icons {
@@ -233,10 +244,12 @@
 
         #icons:checked~#icons {
             display: block;
+            animation: visible 1s;
         }
 
         #icons:checked~#carouselIcons {
             display: block;
+            animation: visible 1s;
         }
 
         #icons:checked~#fonts {
@@ -265,6 +278,7 @@
 
         #contact:checked~#contact {
             display: block;
+            animation: visible 1s;
         }
 
         #contact:checked~#fonts {
