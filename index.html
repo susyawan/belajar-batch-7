@@ -134,6 +134,18 @@
             gap: 10px;
         }
 
+        .logo-span {
+            font-family: 'Courier New', Courier, monospace; 
+            font-weight: bold; 
+            font-size: 34px; 
+            margin: 0px; 
+            padding-top: 5px; 
+            padding-bottom: 5px; 
+            padding-left: 40px; 
+            padding-right: 40px;
+        }
+        
+
         /* Fonts */
         .face {
             transition: .4s;
@@ -321,7 +333,7 @@
         .menu-lab:hover {
             background: linear-gradient(to bottom right,
                     rgb(218, 221, 255), rgb(218, 221, 255));
-            border-radius: 15px;
+            border-radius: 20px;
         }
 
         .in-filter:focus {
@@ -394,12 +406,8 @@
     <!-- Header -->
     <nav class="container sticky-top p-0">
         <header class="d-flex flex-wrap justify-content-between align-items-center shadow-sm sticky-top bg-color-fit">
-            <a href="#" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <span class="fs-1"
-                    style="font-family: 'Courier New', Courier, monospace; font-weight: bold;">Fontoon</span>
+            <a href="#" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none" style="border-radius: 20px;">
+                <span class="logo-span">Fontoon</span>
             </a>
             <ul class="nav nav-pills" style="margin-right: 30px;">
                 <li class="nav-item"><label for="fonts" class="menu-lab">Fonts</label></li>
@@ -1820,7 +1828,7 @@
                             style="color: #fff; font-size: 22px;">
                             <li>
                                 <a class="text-muted" href="#" target="_blank">
-                                    <label for="" style="cursor: pointer;">
+                                    <label for="" style="cursor: pointer; text-align: center;">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                             fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
                                             <path
@@ -1832,7 +1840,7 @@
                             </li>
                             <li>
                                 <a class="text-muted" href="#" target="_blank">
-                                    <label for="" style="cursor: pointer;">
+                                    <label for="" style="cursor: pointer; text-align: center;">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                             fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                                             <path
@@ -1844,7 +1852,7 @@
                             </li>
                             <li>
                                 <a class="text-muted" href="#" target="_blank">
-                                    <label for="" style="cursor: pointer;">
+                                    <label for="" style="cursor: pointer; text-align: center;">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                             fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                                             <path
